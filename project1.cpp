@@ -78,6 +78,7 @@ void update(){
         cout<<"Invalid! roll number not found \n";
       }
   f1.close();
+  f2.close();
 }
 void deleterecord(){
     bool present = false;
@@ -110,6 +111,8 @@ void deleterecord(){
     if(!present){
         cout<<"Invalid! roll number not found \n";
       }
+  f1.close();
+  f2.close();
 }
 
 int main()
