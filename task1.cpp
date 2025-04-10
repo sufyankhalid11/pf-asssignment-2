@@ -9,7 +9,12 @@ void arrayfunction(int a[]){
 
 int main()
 {
-    int array[5]={1,2,3,4,5};
+    int array[5];
+    cout<<"enter 5 num for array \n";
+    for(int i=0;i<5;i++)
+    {
+        cin>>array[i];
+    }
     arrayfunction(array);
   return 0;
 }
